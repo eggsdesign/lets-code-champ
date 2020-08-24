@@ -10,15 +10,19 @@ Before we start, keep this in mind: HTML (and later, CSS) was first created as a
 An HTML tag / element has an opening tag and a closing tag
 
 ```html
-<section>Content</section>
+<section>
+...content goes here
+</section>
 ```
 
 You can put elements inside other elements
 
 ```html
 <section>
-	<h1>Our main heading</h1>
-	<p>A paragraph</p>
+	<h1>Kinder</h1>
+
+	<h2>Alexander, 29</h2>
+	<p>I like long walks on the beach and late nights by the fireplace</p>
 </section>
 ```
 
@@ -29,10 +33,10 @@ Most HTML pages follow this basic structure
 <!DOCTYPE html>
 <html>
 	<head>
-		[Meta data]
+		...meta data
 	</head>
 	<body>
-		[Content you can actually see]
+		...content you can actually see
 	</body>
 </html>
 ```
