@@ -22,6 +22,7 @@ You can put elements inside other elements
 Most HTML pages follow this basic structure
 
 ```html
+<!DOCTYPE html>
 <html>
 	<head>
 		[Meta data]
