@@ -1,5 +1,9 @@
 # 01 - Structure and Style with HTML and CSS
 
+This is what we will make today: an app for finding and matching with people at EGGS.
+
+![Hero image](assets/Hero.png)
+
 Before we start, keep this in mind: HTML (and later, CSS) was first created as a document formatting language, like Word. It is also quite old. If you keep this in mind while working with HTML documents, maybe you will forgive some of the strange parts.
 
 ## HTML tags and attributes
