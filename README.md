@@ -23,15 +23,14 @@ This course will focus on programming for web, which is a great stepping stone t
 * Linking pages and resources
 * Adding stylesheets (CSS)
 * Targeting styles with classes
+* Responsive CSS and media queries
 
 ### Javascript – Adding behaviours
 * Variables hold data
 * Functions hold actions
-* Function arguments
-* Function returns
-* if / else
+* Conditionals (if, else, &&, ||)
 * Loops
-* Access and manipulate HTML elements
+* Manipulate HTML elements
 * Side-effects, pure functions and functional programming
 
 #### Fetching data from an API
@@ -52,3 +51,9 @@ This course will focus on programming for web, which is a great stepping stone t
 
 ### Accessibility
 * Rules of thumb
+
+---
+
+# Unsorted topics
+* 3D and animation
+* Video elements

@@ -77,6 +77,44 @@ button.accept-button {
 	background-color: green;
 }
 ```
+
+## CSS with queries
+In css, you can also code which styles should be applied based on input conditions like screen width or preferred color theme.
+
+### Dark mode 😈
+```css
+/* Normal mode shows light background with black text */
+html {
+	background-color: white;
+	color: black;
+}
+
+/* Dark mode has black background with white text */
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: black;
+		color: white;
+	}
+}
+```
+
+### Screen size
+Using media queries, you can also change the styles based on how big the screen is. This is a nice way to adapt the layout when people are accessing your website via their phone.
+
+```css
+body {
+	font-size: 1.2rem;
+}
+
+/* Makes the text a bit smaller when the screen is smaller */
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 0.8rem;
+	}
+}
+```
+
+
 ---
 ## Task
 Your mission, should you choose to accept it, is to develop the rest of the Kinder app.
