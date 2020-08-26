@@ -34,7 +34,7 @@ This course will focus on programming for web, which is a great stepping stone t
 * Access and manipulate HTML elements
 * Side-effects, pure functions and functional programming
 
-### Fetching data from an API
+#### Fetching data from an API
 * Calling an api with Javascript
 * Rendering HTML based on API results
 
