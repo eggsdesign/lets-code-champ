@@ -60,23 +60,36 @@ Let's add a specific identifier to one of our heading elements, to make that sta
 
 ```html
 <h1>A normal heading</h1>
-<h1 class="huuuge">A special heading</h1>
+
+<h1 class="special-heading">A special heading</h1>
+
 <h1>A normal heading</h1>
+
 <h1>A normal heading</h1>
 ```
-
-Now we can target this class in our CSS file
 
 ```css
-h1 {
+/* Selector: all h1 elements */
+
+h1 { 
 	font-size: 200px;
+}
+
+
+/* Selector: all elements with the class "special-heading" */
+
+.special-heading {
+	font-size: 500px;
 	color: pink;
 }
-
-.huuuge {
-	font-size: 500px;
-}
 ```
+---
+## Task
+Your mission, should you choose to accept it, is to develop the rest of the Kinder app.
 
 ---
-## Homework
+## Homework and extra resources
+* Mozilla Developers Network (your go-to encyclopedia of web stuff)
+	* MDN page for [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+	* MDN page for [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Fireship on YouTube](https://www.youtube.com/c/AngularFirebase/featured) (really good video tutorials, both easy and advanced topics)
