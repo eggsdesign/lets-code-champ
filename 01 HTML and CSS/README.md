@@ -44,6 +44,14 @@ Most HTML pages follow this basic structure
 ## Adding stylesheets (CSS)
 The standard way of styling html documents is to add a separate style document that describes what our html elements should look like. 
 
+Create a stylesheet called `style.css` in the same directory as your html file, and add the following code inside the `<head>` element in your html file.
+
+```html
+<head>
+	<link rel="stylesheet" href="./style.css">
+</head>
+```
+
 As an example, lets give our `<button>` elements some styles.
 
 ```css
