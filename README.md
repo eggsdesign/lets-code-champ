@@ -21,8 +21,8 @@ This course will focus on programming for web, which is a great stepping stone t
 * Basic HTML document structure
 * HTML tags and attributes
 * Linking pages and resources
-* Adding stylesheets (css)
-* Targeting styles with classes and ids
+* Adding stylesheets (CSS)
+* Targeting styles with classes
 
 ### Javascript – Adding behaviours
 * Variables hold data
@@ -38,10 +38,11 @@ This course will focus on programming for web, which is a great stepping stone t
 * Calling an api with Javascript
 * Rendering HTML based on API results
 
-### Git
-* It's a journal for your code projects
-* Git for collaboration
-* Branches and Pull requests
+### Git and GitHub
+* It's like a journal for your code projects
+* Git makes collaboration easier
+* Parallel work tracks with Branches and Pull requests
+* How to publish your prototype with GitHub Pages
 
 ### React and modern web apps
 * Your first React component
