@@ -1,10 +1,10 @@
 # 01 - Structure and Style with HTML and CSS
 
-This is what we will make today: an app for finding and matching with people at EGGS.
+This is what we will make today: an app for finding and matching with people at EGGS. I've made a [proposal](https://codesandbox.io/s/kinderapp-jog8u?file=/index.html) for how to code this, which you can check out if you get stuck along the way.
 
 ![Hero image](assets/Hero.png)
 
-Before we start, keep this in mind: HTML (and later, CSS) was first created as a document formatting language, like Word. It is also quite old. If you keep this in mind while working with HTML documents, maybe you will forgive some of the strange parts.
+Before we start, know this: HTML (and later, CSS) was first created as a document formatting language, like Word. It is also quite old. If you keep this in mind while working with HTML documents, maybe you will forgive some of the strange parts.
 
 ## HTML tags and attributes
 An HTML tag / element has an opening tag and a closing tag
