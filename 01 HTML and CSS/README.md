@@ -26,7 +26,7 @@ You can put elements inside other elements
 </section>
 ```
 
-## Basic HTML document structure
+## Basic HTML structure
 Most HTML pages follow this basic structure
 
 ```html
@@ -41,46 +41,40 @@ Most HTML pages follow this basic structure
 </html>
 ```
 
-## Adding stylesheets (css)
+## Adding stylesheets (CSS)
 The standard way of styling html documents is to add a separate style document that describes what our html elements should look like. 
 
-As an example, lets give our `<h1>` heading elements a black bottom line.
+As an example, lets give our `<button>` elements some styles.
 
 ```css
-h1 {
-	border-bottom: 1px solid black;
+button {
+	padding: 4px;
+	border-radius: 8px;
 }
 ```
 
 
-## Targeting styles with classes and ids
-However, that css rule will make EVERY `<h1>` element in our html document get the same style. What if we only want to style ONE of our heading elements?
+## Targeting styles with classes
+However, that css rule will make EVERY `<button>` element in our document get the same style. What if we want one of the buttons to stand out?
 
-Let's add a specific identifier to one of our heading elements, to make that stand out even more.
+Let's add a specific identifier to one of our buttons, with a `class` attribute.
 
 ```html
-<h1>A normal heading</h1>
-
-<h1 class="special-heading">A special heading</h1>
-
-<h1>A normal heading</h1>
-
-<h1>A normal heading</h1>
+<button>Cancel</button>
+<button>Read more</button>
+<button class="accept-button">Accept</button>
 ```
 
 ```css
-/* Selector: all h1 elements */
-
-h1 { 
-	font-size: 200px;
+/* All button elements */
+button {
+	padding: 4px;
+	border-radius: 8px;
 }
 
-
-/* Selector: all elements with the class "special-heading" */
-
-.special-heading {
-	font-size: 500px;
-	color: pink;
+/* Only buttons with the class "accept-button" */
+button.accept-button {
+	background-color: green;
 }
 ```
 ---
