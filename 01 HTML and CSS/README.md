@@ -7,7 +7,7 @@ This is what we will make today: an app for finding and matching with people at 
 Before we start, know this: HTML (and later, CSS) was first created as a document formatting language, like Word. It is also quite old. If you keep this in mind while working with HTML documents, maybe you will forgive some of the strange parts.
 
 ## HTML tags and attributes
-An HTML tag / element has an opening tag and a closing tag
+An HTML element (usually) has an opening tag and a closing tag. Note that the closing tag starts with `</`.
 
 ```html
 <section>
