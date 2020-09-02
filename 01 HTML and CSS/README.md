@@ -114,7 +114,7 @@ The display type of an element dictates how it will look on the page. By default
 - `block` elements (like `div`, `p`, `h1`-`h6`, `section`) want to take the full width of the page, and behave like a big block.
 - `inline` elements (like `span`, `a`, `strong`) follow the text flow of the content.
 - `grid` will render its contents in a grid (when supplemented with a few extra css rules)
-- `flex` behaves similar to `block`, but with better layout functionality. You will probably use this a lot, and [CSS Tricks has a great resource about how to use Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+- `flex` behaves similar to `block`, but with better layout functionality. You will probably use this a lot, and [CSS Tricks has a great article on how to use Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ---
 
