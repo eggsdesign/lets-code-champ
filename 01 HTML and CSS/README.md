@@ -7,9 +7,12 @@ headingDivider: 2
 
 ![](assets/Hero.png)
 
-This is what we will make today: an app for finding and matching with people at EGGS. You can find and inspect the design files in [this Figma file](https://www.figma.com/file/zqZmMHuzI4aLm7y4NMMi1V/Kinder-app?node-id=0%3A1).
+This is what we will make today: an app for finding and matching with people at EGGS.
 
-I've also made a [proposal](https://codesandbox.io/s/kinderapp-jog8u?file=/index.html) for how to code this, which you can check out if you get stuck along the way.
+## Resources
+
+- [Figma file](https://www.figma.com/file/zqZmMHuzI4aLm7y4NMMi1V/Kinder-app?node-id=0%3A1) design specification (also has the icons you will need)
+- A [proposal](https://codesandbox.io/s/kinderapp-jog8u?file=/index.html) for how to code this, if you get stuck
 
 ## HTML has a lot of baggage
 
@@ -93,52 +96,25 @@ button {
   border-radius: 8px;
 }
 
-/* Only buttons with the class "accept-button" */
-button.accept-button {
+/* Only elements with the class "accept-button" */
+.accept-button {
   background-color: green;
 }
 ```
 
-## CSS with media queries
+## Margins and Paddings
 
-In css, you can also code which styles should be applied based on input conditions like screen width or preferred color theme.
+- **Margins** add spacing around your element
+- **Padding** adds spacing inside your element
 
-### Screen size
+## Display properties
 
-Using media queries, you can also change the styles based on how big the screen is. This is a nice way to adapt the layout when people are accessing your website via their phone.
+The display type of an element dictates how it will look on the page. By default, most elements are either of type `inline` or of type `block`.
 
-```css
-body {
-  font-size: 1.2rem;
-}
-
-/* Makes the text a bit smaller when the screen is smaller */
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 0.8rem;
-  }
-}
-```
-
-### Dark mode 😈
-
-You can also make a media query that adapts to the current color scheme on the device that is viewing the page like this.
-
-```css
-/* Normal mode shows light background with black text */
-html {
-  background-color: white;
-  color: black;
-}
-
-/* Dark mode has black background with white text */
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: black;
-    color: white;
-  }
-}
-```
+- `block` elements (like `div`, `p`, `h1`-`h6`, `section`) want to take the full width of the page, and behave like a big block.
+- `inline` elements (like `span`, `a`, `strong`) follow the text flow of the content.
+- `grid` will render its contents in a grid (when supplemented with a few extra css rules)
+- `flex` behaves similar to `block`, but with better layout functionality. You will probably use this a lot, and [CSS Tricks has a great resource about how to use Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ---
 
