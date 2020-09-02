@@ -3,7 +3,7 @@ marp: true
 headingDivider: 2
 --- -->
 
-# 01 - Structure and Style with HTML and CSS
+# 01 HTML and CSS - Basics
 
 ![](assets/Hero.png)
 
