@@ -3,9 +3,9 @@ marp: true
 headingDivider: 2
 --- -->
 
-# 01 HTML and CSS - Basics
+![bg](assets/Hero.png)
 
-![](assets/Hero.png)
+# 01 HTML and CSS - Basics
 
 This is what we will make today: an app for finding and matching with people at EGGS.
 
