@@ -12,15 +12,15 @@ This is what we will make today: an app for finding and matching with people at 
 I've also made a [proposal](https://codesandbox.io/s/kinderapp-jog8u?file=/index.html) for how to code this, which you can check out if you get stuck along the way.
 
 ## HTML has a lot of baggage
+
 Before we start, know this: HTML (and later, CSS) was first created as a document formatting language, like Word. It is also quite old. If you keep this in mind while working with HTML documents, maybe you will forgive some of the strange parts.
 
 ## HTML tags and attributes
+
 An HTML element (usually) has an opening tag and a closing tag. Note that the closing tag starts with `</`.
 
 ```html
-<section>
-...content goes here
-</section>
+<section>...content goes here</section>
 ```
 
 You can put elements inside other elements
@@ -38,6 +38,7 @@ You can put elements inside other elements
 ```
 
 ## Basic HTML structure
+
 Most HTML pages follow this basic structure
 
 ```html
@@ -52,17 +53,15 @@ Most HTML pages follow this basic structure
 </html>
 ```
 
-### Task 👩🏼‍💻
-Fill in the main structure of our app, based on what you see in the Figma file. 
-
 ## Adding stylesheets (CSS)
-The standard way of styling html documents is to add a separate style document that describes what our html elements should look like. 
+
+The standard way of styling html documents is to add a separate style document that describes what our html elements should look like.
 
 Create a stylesheet called `style.css` in the same directory as your html file, and add the following code inside the `<head>` element in your html file.
 
 ```html
 <head>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css" />
 </head>
 ```
 
@@ -75,8 +74,8 @@ button {
 }
 ```
 
-
 ## Targeting styles with classes
+
 However, that css rule will make EVERY `<button>` element in our document get the same style. What if we want one of the buttons to stand out?
 
 Let's add a specific identifier to one of our buttons, with a `class` attribute.
@@ -100,10 +99,12 @@ button.accept-button {
 }
 ```
 
-## CSS with queries
+## CSS with media queries
+
 In css, you can also code which styles should be applied based on input conditions like screen width or preferred color theme.
 
 ### Screen size
+
 Using media queries, you can also change the styles based on how big the screen is. This is a nice way to adapt the layout when people are accessing your website via their phone.
 
 ```css
@@ -120,6 +121,7 @@ body {
 ```
 
 ### Dark mode 😈
+
 You can also make a media query that adapts to the current color scheme on the device that is viewing the page like this.
 
 ```css
@@ -138,14 +140,19 @@ html {
 }
 ```
 
-
 ---
-## Task 👩🏼‍💻
-Your mission, should you choose to accept it, is to develop the rest of the Kinder app.
 
----
-## Homework and extra resources
-* Mozilla Developers Network (your go-to encyclopedia of web stuff)
-  * MDN page for [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  * MDN page for [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Fireship on YouTube](https://www.youtube.com/c/AngularFirebase/featured) (really good video tutorials, both easy and advanced topics)
+## Homework
+
+The following interactive tasks are hosted on Free Code Camp, which has tons of resouces for hands-on learning web technology and coding. Open the **Responsive Web Design Certification** category to find the following tracks. It may look like a lot of exercises, but they are super quick to finish when you get the hang of it.
+
+- Finish the first 10 exercises in the [HTML track at Free Code Camp](https://www.freecodecamp.org/learn)
+- Finish the first 10 exercises in the [CSS track at Free Code Camp](https://www.freecodecamp.org/learn)
+
+## Extra resources
+
+- [Free Code Camp](https://www.freecodecamp.org/) (interactive web tutorials - highly recommended)
+- Mozilla Developers Network (your go-to encyclopedia of web stuff)
+  - MDN page for [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - MDN page for [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Fireship on YouTube](https://www.youtube.com/c/AngularFirebase/featured) (really good video tutorials, both easy and advanced topics)
