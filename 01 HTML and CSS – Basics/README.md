@@ -9,6 +9,9 @@ headingDivider: 2
 
 This is what we will make today: an app for finding and matching with people at EGGS.
 
+## The recorded session 📹
+Can be found here: https://web.microsoftstream.com/video/41733ab3-30ba-4c1b-92ad-bc7190a0a7da
+
 ## Resources
 
 - [Figma file](https://www.figma.com/file/zqZmMHuzI4aLm7y4NMMi1V/Kinder-app?node-id=0%3A1) design specification (also has the icons you will need)
