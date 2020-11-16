@@ -30,15 +30,15 @@ This is a series of sessions that will be spread out through the Fall of 2020. T
 
 ### Javascript – Basics
 
-- Variables hold data
-- Functions hold actions
-- Conditionals (if, else, &&, ||)
+- Variables
+- Functions
+- Conditionals
 - Loops
 - Manipulate HTML elements
-- Side-effects, pure functions and functional programming
 
 ### Javascript – Intermediate
 
+- Immutability, side-effects, pure functions and functional programming
 - Using template literal strings as simple components
 - Fetching data from an API
   - Calling an api with Javascript
@@ -48,12 +48,18 @@ This is a series of sessions that will be spread out through the Fall of 2020. T
 
 - Your first React component
 - JSX: It's like a function, but looks like HTML
-- Node, Yarn and Parcel
+- Node, Yarn and Parcel – setting it up on your own machine
 - ESLint and Prettier for consistent code formatting and to follow best practices
+- Hosting an app
+  - Github Pages
+  - Netlify
 
 ### Simple back-ends
 
 - Using Sanity.io for data storage
+- How to set up a Sanity project
+- Fetching from Sanity to an application
+- Rendering based on data from Sanity
 
 ### Git and GitHub
 
